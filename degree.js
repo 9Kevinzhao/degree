@@ -9,10 +9,10 @@ let A = Matrix([
 ]);
 //Code here
 function degree(mtrx,v){
-  let n=0
-for (var i=0;i<5;i++){
+  let sum=0
+for (var i=0;i<mtrx().length;i++){
 if(mtrx(v-1)[i] == 1){
-  n++;
+  sum++;
                   }
                     }
 return n
